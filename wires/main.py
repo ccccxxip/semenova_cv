@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 from skimage.measure import label
 from skimage.morphology import binary_erosion
 
-data = np.load("wires6npy.txt")
+data = np.load("wires\wires6npy.txt")
 
 labeled = label(data) # маркировка изображения 
 
